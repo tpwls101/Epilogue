@@ -4,39 +4,118 @@
 
 - SSAFY 10기 2학기 특화 프로젝트 (블록체인)
 
+![image](https://github.com/kn9012/Epilogue/assets/102653381/f1fc413d-b370-46db-957c-2229cfa5f623)
+
+<br>
+
 ## 👨‍👩‍👧‍👦 프로젝트 기간 및 팀원
 
 - 팀명 : 놓고놀아 (No Coding No Life)
 - 개발 기간 : 2024년 2월 19일 ~ 4월 5일 (7주)
 
-| 강민지 (팀원) | 유병욱 (팀원) | 이현비 (팀원) |
-| --- | --- | --- |
-| Frontend| Frontend 리더, Block Chain | Frontend |
-| **[Flutter]**<br>- Auth : 회원가입, 로그인, 휴대폰인증, 마이페이지<br>- Main : 메인 화면 및 배너, 하단 네비게이션<br>**[React]**<br>**[Figma UI/UX 디자인]**<br>**[UCC 제작]** | **[Flutter]**<br>- 블록체인 로직 이식<br>- 추모관 무한스크롤 퍼블리싱<br>**[Block Chain]**<br>- 스마트 컨트랙트 배포<br>- FE - Block Chain 이식<br>- IPFS : 설정 / 노드 구성 | **[Flutter]**<br>- 추모관 : 파일 업로드, 즐겨찾기, 검색, 리스트<br>- 유언 생성 : 녹음, 재생, 열람인, 증인, 선택사항<br>**[React]**<br>- 증인 유언장 열람 신청, 열람인 유언장 열람 신청, 유언장 |
-
-| 김유나 (팀장) | 유세진 (팀원) | 한재현 (팀원) |
-| --- | --- | --- |
-| Backend, CI/CD | Backend, CI/CD | Backend 리더, Block Chain |
-| [Backend]
-- 유언 도메인 API 구현
-- 유언 생성, 관련 정보 저장, 나의 유언 조회 및 삭제, 유언 열람 신청, 인증 코드 확인
-- 유언 파일, 묘비 사진 S3 컨텐츠 업로드, 조회 및 삭제
-
-[CI/CD]
-- AWS EC2 기본 설정 및 Docker, Jenkins 설치
-- React 빌드 및 배포 | [Backend]
-- 디지털 추모관 도메인 API 구현
-- 추모관 리스트, 즐겨찾기, 디테일
-- No-offset 기반의 사진/동영상/편지(이하 컨텐츠) 목록 조회, S3 기반의 컨텐츠 업로드 및 조회, 신고하기
-
-[CI/CD]
-- Jenkins 초기 설치 및 기본 설정
-- Jenkinsfile 및 Dockerfile 작성
-- Spring Boot 자동 빌드 및 자동 배포 구축 | [Backend]
-- 유저 도메인 API 구현
-- Oauth2를 이용한 소셜 로그인 구현
-- Spring Security + JWT를 활용하여 다른 로그인 시스템에 접근 및 권한 공유
-- 자주 접근하고, 자주 바뀌지 않는 데이터를 저장하기 위해 Redis 사용 |
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/minzzikang" width="150px;" alt="강민지"/>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/YooByWk" width="150px;" alt="유병욱"/>
+    </td>
+   <td align="center">
+      <img src="https://avatars.githubusercontent.com/tlfahd2" width="150px;" alt="이현비"/>
+    </td>
+  </tr>
+  <tr>    
+    <td align="center">
+      <a href="https://github.com/minzzikang">
+        <div>강민지</div>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/YooByWk">
+        <div>유병욱</div>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/tlfahd2">
+        <div>이현비</div>
+      </a>
+    </td>
+  </tr>
+  <tr>    
+    <td align="center">
+     <b>Frontend</b>
+    </td>
+    <td align="center">
+      <b>Frontend 리더 / Block Chain</b>
+    </td>
+    <td align="center">
+      <b>Frontend</b>
+    </td>
+  </tr>
+   <tr>    
+    <td>
+     <b>Flutter]</b><br>- Auth : 회원가입, 로그인, 휴대폰인증, 마이페이지<br>- Main : 메인 화면 및 배너, 하단 네비게이션<br><b>[React]</b><br><b>[Figma UI/UX 디자인]</b><br><b>[UCC 제작]</b>
+    </td>
+    <td>
+      <b>[Flutter]</b><br>- 블록체인 로직 이식<br>- 추모관 무한스크롤 퍼블리싱<br><b>[Block Chain]</b><br>- 스마트 컨트랙트 배포<br>- FE - Block Chain 이식<br>- IPFS : 설정 / 노드 구성
+    </td>
+    <td>
+      <b>[Flutter]</b><br>- 추모관 : 파일 업로드, 즐겨찾기, 검색, 리스트<br>- 유언 생성 : 녹음, 재생, 열람인, 증인, 선택사항<br><b>[React]</b><br>- 증인 유언장 열람 신청, 열람인 유언장 열람 신청, 유언장
+    </td>
+  </tr>
+ 
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/kn9012" width="150px;" alt="김유나"/>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/tpwls101" width="150px;" alt="유세진"/>
+    </td>
+   <td align="center">
+      <img src="https://avatars.githubusercontent.com/tneserp" width="150px;" alt="한재현"/>
+    </td>
+  </tr>
+  <tr>    
+    <td align="center">
+      <a href="https://github.com/minzzikang">
+        <div>김유나</div>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/YooByWk">
+        <div>유세진</div>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/tlfahd2">
+        <div>한재현</div>
+      </a>
+    </td>
+  </tr>
+  <tr>    
+    <td align="center">
+     <b>팀장 / Backend / CI/CD</b>
+    </td>
+    <td align="center">
+      <b>Backend / CI/CD</b>
+    </td>
+    <td align="center">
+      <b>Backend 리더 / Block Chain</b>
+    </td>
+  </tr>
+   <tr>    
+    <td>
+     <b>[Backend]</b><br>- 유언 도메인 API 구현<br>- 유언 생성, 관련 정보 저장, 나의 유언 조회 및 삭제, 유언 열람 신청, 인증 코드 확인<br>- 유언 파일, 묘비 사진 S3 컨텐츠 업로드, 조회 및 삭제<br><b>[CI/CD]</b><br>- AWS EC2 기본 설정 및 Docker, Jenkins 설치<br>- React 빌드 및 배포
+    </td>
+    <td>
+      <b>[Backend]</b><br>- 디지털 추모관 도메인 API 구현<br>- 추모관 리스트, 즐겨찾기, 디테일<br>- No-offset 기반의 사진/동영상/편지(이하 컨텐츠) 목록 조회, S3 기반의 컨텐츠 업로드 및 조회, 신고하기<br><b>[CI/CD]</b><br>- Jenkins 초기 설치 및 기본 설정<br>- Jenkinsfile 및 Dockerfile 작성<br>- Spring Boot 자동 빌드 및 자동 배포 구축
+    </td>
+    <td>
+      <b>[Backend]</b><br>- 유저 도메인 API 구현<br>- Oauth2를 이용한 소셜 로그인 구현<br>- Spring Security + JWT를 활용하여 다른 로그인 시스템에 접근 및 권한 공유<br>- 자주 접근하고, 자주 바뀌지 않는 데이터를 저장하기 위해 Redis 사용
+    </td>
+  </tr>
+</table>
 
 ## ✏ 개요
 
