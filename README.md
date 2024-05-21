@@ -15,13 +15,13 @@
 
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="33%">
       <img src="https://avatars.githubusercontent.com/minzzikang" width="150px;" alt="강민지"/>
     </td>
-    <td align="center">
+    <td align="center" width="33%">
       <img src="https://avatars.githubusercontent.com/YooByWk" width="150px;" alt="유병욱"/>
     </td>
-   <td align="center">
+   <td align="center" width="33%">
       <img src="https://avatars.githubusercontent.com/tlfahd2" width="150px;" alt="이현비"/>
     </td>
   </tr>
